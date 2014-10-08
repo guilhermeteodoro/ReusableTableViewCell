@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1475274D19E567B200609C08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475274C19E567B200609C08 /* main.m */; };
-		1475275019E567B200609C08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475274F19E567B200609C08 /* AppDelegate.m */; };
-		1475275319E567B200609C08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475275219E567B200609C08 /* ViewController.m */; };
 		1475275619E567B200609C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1475275419E567B200609C08 /* Main.storyboard */; };
 		1475275819E567B200609C08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1475275719E567B200609C08 /* Images.xcassets */; };
 		1475275B19E567B200609C08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1475275919E567B200609C08 /* LaunchScreen.xib */; };
 		1475276719E567B200609C08 /* ReusableTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475276619E567B200609C08 /* ReusableTableViewCellTests.m */; };
+		1475277619E5680300609C08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475277119E5680300609C08 /* AppDelegate.m */; };
+		1475277719E5680300609C08 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475277319E5680300609C08 /* CustomCell.m */; };
+		1475277819E5680300609C08 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1475277519E5680300609C08 /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,18 @@
 		1475274719E567B200609C08 /* ReusableTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1475274B19E567B200609C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1475274C19E567B200609C08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1475274E19E567B200609C08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1475274F19E567B200609C08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1475275119E567B200609C08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1475275219E567B200609C08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1475275519E567B200609C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1475275719E567B200609C08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1475275A19E567B200609C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1475276019E567B200609C08 /* ReusableTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReusableTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1475276519E567B200609C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1475276619E567B200609C08 /* ReusableTableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReusableTableViewCellTests.m; sourceTree = "<group>"; };
+		1475277019E5680300609C08 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1475277119E5680300609C08 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1475277219E5680300609C08 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		1475277319E5680300609C08 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		1475277419E5680300609C08 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		1475277519E5680300609C08 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		1475274919E567B200609C08 /* ReusableTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				1475274E19E567B200609C08 /* AppDelegate.h */,
-				1475274F19E567B200609C08 /* AppDelegate.m */,
-				1475275119E567B200609C08 /* ViewController.h */,
-				1475275219E567B200609C08 /* ViewController.m */,
+				1475277019E5680300609C08 /* AppDelegate.h */,
+				1475277119E5680300609C08 /* AppDelegate.m */,
+				1475277219E5680300609C08 /* CustomCell.h */,
+				1475277319E5680300609C08 /* CustomCell.m */,
+				1475277419E5680300609C08 /* CustomTableViewController.h */,
+				1475277519E5680300609C08 /* CustomTableViewController.m */,
 				1475275419E567B200609C08 /* Main.storyboard */,
 				1475275719E567B200609C08 /* Images.xcassets */,
 				1475275919E567B200609C08 /* LaunchScreen.xib */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1475275319E567B200609C08 /* ViewController.m in Sources */,
-				1475275019E567B200609C08 /* AppDelegate.m in Sources */,
+				1475277819E5680300609C08 /* CustomTableViewController.m in Sources */,
+				1475277619E5680300609C08 /* AppDelegate.m in Sources */,
 				1475274D19E567B200609C08 /* main.m in Sources */,
+				1475277719E5680300609C08 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				1475276C19E567B200609C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1475276D19E567B200609C08 /* Build configuration list for PBXNativeTarget "ReusableTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				1475276F19E567B200609C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
